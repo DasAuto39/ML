@@ -1,0 +1,5 @@
+\babel@toc {bahasa}{}\relax 
+\contentsline {chapter}{Dasar Teori}{2}{chapter*.2}%
+\contentsline {chapter}{Hasil Praktikum}{3}{chapter*.3}%
+\contentsline {chapter}{Tugas Modul}{4}{chapter*.4}%
+\contentsline {chapter}{Kesimpulan}{5}{chapter*.5}%
