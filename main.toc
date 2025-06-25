@@ -1,0 +1,16 @@
+\babel@toc {bahasa}{}\relax 
+\contentsline {chapter}{Dasar Teori}{2}{chapter*.2}%
+\contentsline {section}{\numberline {1}Machine Learning dan Supervised Learning}{2}{section.0.1}%
+\contentsline {section}{\numberline {2}Alur Kerja Proyek Machine Learning}{2}{section.0.2}%
+\contentsline {section}{\numberline {3}Pra-pemrosesan Data}{3}{section.0.3}%
+\contentsline {subsection}{\numberline {3.1}One-Hot Encoding}{3}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {3.2}Penskalaan Fitur (Feature Scaling)}{3}{subsection.0.3.2}%
+\contentsline {section}{\numberline {4}Model yang Digunakan}{4}{section.0.4}%
+\contentsline {subsection}{\numberline {4.1}Regresi Linear}{4}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {4.2}Random Forest}{4}{subsection.0.4.2}%
+\contentsline {subsection}{\numberline {4.3}XGBoost}{4}{subsection.0.4.3}%
+\contentsline {subsection}{\numberline {4.4}Multi-Layer Perceptron (MLP)}{4}{subsection.0.4.4}%
+\contentsline {section}{\numberline {5}Metrik Evaluasi Model}{5}{section.0.5}%
+\contentsline {chapter}{Hasil Praktikum}{6}{chapter*.3}%
+\contentsline {chapter}{Hasil}{7}{chapter*.4}%
+\contentsline {chapter}{Kesimpulan}{8}{chapter*.5}%
