@@ -1,56 +1,124 @@
 \chapter*{Dasar Teori}
 \addcontentsline{toc}{chapter}{Dasar Teori}
 
-Pada bagian ini, akan dibahas landasan teoretis yang menjadi dasar pelaksanaan proyek. Penjelasan mencakup konsep fundamental machine learning, alur kerja yang diterapkan, metodologi pra-pemrosesan data, serta arsitektur dan cara kerja dari setiap model yang digunakan untuk memprediksi kinerja akademik siswa.
+\section{Latar Belakang dan Relevansi}
 
-\section{Machine Learning dan Supervised Learning}
-Machine learning adalah cabang dari kecerdasan buatan (AI) yang berfokus pada pengembangan algoritma yang memungkinkan komputer untuk belajar dari data dan membuat prediksi atau keputusan tanpa diprogram secara eksplisit. Dalam proyek ini, pendekatan yang digunakan adalah Supervised Learning (Pembelajaran Terarah).
+Di sistem pendidikan kita sekarang, bantuan untuk siswa yang kesulitan seringkali datang terlambat. Biasanya, sekolah baru akan bertindak---misalnya dengan mengadakan kelas remedial---setelah nilai ujian akhir keluar dan hasilnya kurang memuaskan. Tentu saja, pendekatan seperti ini punya kelemahan besar: bantuan diberikan saat semuanya sudah terjadi, di mana siswa mungkin sudah kehilangan motivasi.
 
-Dalam Supervised Learning, model dapat belajar dari dataset yang telah memiliki label atau target yang diketahui. Model menganalisis serangkaian fitur input (variabel independen, X) dan hubungannya dengan variabel output (variabel dependen, y). Tujuan utamanya adalah untuk mempelajari fungsi pemetaan (y=f(X)) sehingga ketika data baru tanpa label diberikan, model dapat memprediksi outputnya dengan akurasi tinggi.
+Di sinilah \textit{machine learning} bisa mengubah keadaan. Dengan menganalisis data-data siswa yang sudah ada---mulai dari data pribadi, pergaulan, dan terutama nilai-nilai sebelumnya---kita bisa membuat sebuah model prediksi. Model ini bisa berfungsi seperti ``sistem peringatan dini'' yang bisa menandai siswa mana yang kemungkinan besar akan gagal, jauh sebelum ujian akhir. Dengan kemampuan ini, para guru bisa memberikan bantuan yang lebih personal dan tepat waktu, sehingga peluang siswa untuk berhasil jadi lebih besar.
 
-Solusi dari permasalahan yang ingin diselesaikan dalam proyek ini meliputi model regresi, yaitu salah satu bentuk Supervised Learning di mana variabel output (y) yang diprediksi bersifat kontinu atau numerik. Dalam konteks ini, model bertujuan untuk memprediksi nilai akhir siswa (G3) yang merupakan sebuah angka.
+\section{Tujuan dan Ruang Lingkup Proyek}
 
-\section{Alur Kerja Proyek Machine Learning}
-Untuk memastikan hasil yang sistematis dan dapat dipertanggungjawabkan, proyek ini mengikuti alur kerja standar dalam pengembangan model machine learning, yang terdiri dari beberapa tahapan utama:
+Berdasarkan masalah di atas, tujuan utama dari proyek ini adalah:
 \begin{enumerate}
-\item \textbf{Eksplorasi Data (EDA):} Memahami karakteristik, distribusi, dan hubungan antar variabel dalam dataset melalui statistik deskriptif dan visualisasi data.
-\item \textbf{Rekayasa Fitur (Feature Engineering):} Membuat fitur-fitur baru yang lebih informatif dari fitur yang sudah ada (misalnya, grade_avg_prev) untuk meningkatkan sinyal prediktif bagi model.
-\item \textbf{Pra-pemrosesan Data (Preprocessing):} Menyiapkan dan mentransformasi data agar sesuai dengan format yang dibutuhkan oleh model machine learning.
-\item \textbf{Pemodelan (Modeling):} Memilih, melatih, dan mengevaluasi beberapa algoritma yang berbeda untuk menemukan model dengan performa terbaik.
-\item \textbf{Evaluasi Model:} Mengukur kinerja model terbaik menggunakan metrik kuantitatif seperti R-squared dan RMSE untuk menilai akurasi dan keandalannya.
-\item \textbf{Prediksi (Inference):} Menggunakan model yang telah dilatih untuk membuat prediksi pada data baru yang belum pernah dilihat sebelumnya, seperti pada simulasi uji coba real-time.
+    \item Membuat dan melatih beberapa model \textit{machine learning} untuk memprediksi nilai akhir matematika siswa (\texttt{G3}).
+    \item Membandingkan model-model tersebut untuk menemukan mana yang paling akurat dan bisa diandalkan.
+    \item Menganalisis fitur atau faktor apa saja yang paling berpengaruh menurut model terbaik.
 \end{enumerate}
 
-\section{Pra-pemrosesan Data}
-Data mentah jarang sekali bisa langsung digunakan oleh model. Oleh karena itu, diperlukan beberapa teknik pra-pemrosesan untuk membersihkan dan menstrukturkan data.
+Untuk mencapai tujuan itu, proyek ini punya batasan (ruang lingkup) sebagai berikut:
+\begin{itemize}
+    \item \textbf{Dataset:} Kami menggunakan dataset publik ``Student Performance'' dari UCI, yang berisi data dari 395 siswa di Portugal.
+    \item \textbf{Metodologi:} Kami mengikuti alur kerja standar, mulai dari membuat fitur baru (\textit{feature engineering}), memproses data (\textit{preprocessing}), hingga melatih model.
+    \item \textbf{Model yang Diuji:} Kami membandingkan beberapa jenis model: \textbf{Regresi Linear} (sebagai baseline), \textbf{Random Forest} dan \textbf{XGBoost} (sebagai model ensemble canggih), serta \textbf{Multi-Layer Perceptron (MLP)} (sebagai perwakilan deep learning).
+    \item \textbf{Metrik Evaluasi:} Performa model diukur menggunakan \textbf{R-squared (R²)} dan \textbf{Root Mean Squared Error (RMSE)}.
+\end{itemize}
+
+Pendekatan untuk membandingkan berbagai model seperti ini sejalan dengan banyak penelitian di bidang \textit{Educational Data Mining}. Sebagai contoh, sebuah studi oleh Al-Barrak dan Al-Razgan (2016) juga membandingkan beberapa algoritma, termasuk \textit{Decision Trees} (yang menjadi dasar dari Random Forest dan XGBoost), untuk memprediksi IPK mahasiswa. Studi mereka juga menemukan bahwa nilai-nilai sebelumnya adalah faktor prediksi terkuat, sebuah temuan yang menjadi fondasi utama dalam analisis kami.
+
+\section*{Referensi}
+Al-Barrak, M. A., \& Al-Razgan, M. (2016). Predicting Students Final GPA Using Decision Trees: A Case Study. \textit{International Journal of Information and Education Technology, 6}(7), 528-533. doi:10.7763/IJIET.2016.V6.745.
+
+\vspace{0.2cm}
+
+Cortez, P. (2008). Student Performance [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5TG7T.
+
+\chapter*{DataSet}
+\addcontentsline{toc}{chapter}{DataSet}
+
+\section{Deskripsi Dataset}
+Dataset yang kami pilih untuk proyek ini, yaitu ``Student Performance Data Set'', lebih dari sekadar nilai-nilai tak bermakna. Ini adalah potret lengkap kehidupan para siswa. Keistimewaannya adalah data yang sangat beragam, mencakup semuanya mulai dari nilai-nilai akademik, data diri (seperti usia dan alamat), latar belakang keluarga (seperti pendidikan orang tua), hingga gaya hidup mereka (seperti waktu belajar, absensi, dan seberapa sering mereka main). Karena datanya begitu kaya dan bervariasi, ini menjadi dasar yang sempurna untuk membuat model prediksi yang bagus dan menggali faktor apa saja yang sebenarnya mengukur kesuksesan akademis seorang siswa.
+
+\subsection{Sumber Data}
+\begin{itemize}
+    \item \textbf{Judul:} Student Performance Data Set
+    \item \textbf{Author:} P. Cortez and A. Silva
+    \item \textbf{Tanggal Terbit:} 2008
+    \item \textbf{Sumber:} UCI Machine Learning Repository
+    \item \textbf{Relevansi:} Dataset ini sangat relevan karena secara spesifik mencatat berbagai atribut demografis, sosial, dan akademik siswa yang dapat digunakan untuk tujuan prediksi kinerja, sejalan dengan tujuan proyek ini.
+\end{itemize}
+
+\subsection{Ukuran dan Kualitas Dataset}
+\begin{itemize}
+    \item \textbf{Jumlah Data:} Dataset ini terdiri dari \textbf{395 entri} (siswa).
+    \item \textbf{Jumlah Fitur:} Terdapat total \textbf{33 fitur} (atribut) awal untuk setiap siswa.
+    \item \textbf{Data Kosong:} Analisis awal menunjukkan bahwa dataset ini memiliki kualitas yang sangat baik, dengan \textbf{tidak ada nilai kosong} (\textit{missing values}) sama sekali, sehingga tidak memerlukan langkah mengeluarkan data.
+\end{itemize}
+
+\subsection{Fitur-fitur Relevan}
+Berikut adalah deskripsi dari fitur-fitur utama yang terdapat dalam dataset:
+\begin{longtable}{|p{0.15\linewidth}|p{0.15\linewidth}|p{0.6\linewidth}|}
+    \hline
+    \textbf{Nama Variabel} & \textbf{Tipe Data} & \textbf{Deskripsi} \\
+    \hline
+    \endhead
+    school & Kategorikal & Sekolah siswa (`GP' atau `MS') \\
+    sex & Biner & Jenis kelamin siswa (`F' atau `M') \\
+    age & Integer & Usia siswa (15 hingga 22) \\
+    address & Kategorikal & Tipe alamat rumah (`U' - urban atau `R' - rural) \\
+    famsize & Kategorikal & Ukuran keluarga (`LE3' - <=3 atau `GT3' - >3) \\
+    Pstatus & Kategorikal & Status kohabitasi orang tua (`T' - bersama atau `A' - berpisah) \\
+    Medu & Integer & Pendidikan Ibu (0 - tidak ada, 4 - pendidikan tinggi) \\
+    Fedu & Integer & Pendidikan Ayah (0 - tidak ada, 4 - pendidikan tinggi) \\
+    Mjob & Kategorikal & Pekerjaan Ibu (`teacher', `health', `services', dll.) \\
+    Fjob & Kategorikal & Pekerjaan Ayah (`teacher', `health', `services', dll.) \\
+    studytime & Integer & Waktu belajar mingguan (1 - <2 jam, 4 - >10 jam) \\
+    failures & Integer & Jumlah kegagalan kelas sebelumnya (0-4) \\
+    schoolsup & Biner & Dukungan pendidikan ekstra dari sekolah (yes/no) \\
+    famsup & Biner & Dukungan pendidikan dari keluarga (yes/no) \\
+    activities & Biner & Mengikuti kegiatan ekstrakurikuler (yes/no) \\
+    higher & Biner & Ingin melanjutkan ke pendidikan tinggi (yes/no) \\
+    internet & Biner & Akses internet di rumah (yes/no) \\
+    romantic & Biner & Dalam hubungan romantis (yes/no) \\
+    famrel & Integer & Kualitas hubungan keluarga (1 - sangat buruk, 5 - sangat baik) \\
+    goout & Integer & Frekuensi pergi keluar bersama teman (1 - sangat jarang, 5 - sangat sering) \\
+    health & Integer & Status kesehatan saat ini (1 - sangat buruk, 5 - sangat baik) \\
+    absences & Integer & Jumlah absensi sekolah (0 hingga 93) \\
+    G1 & Target & Nilai periode pertama (0 hingga 20) \\
+    G2 & Target & Nilai periode kedua (0 hingga 20) \\
+    G3 & Target & Nilai akhir (0 hingga 20) --- **Output Target Utama** \\
+    \hline
+    \caption{Deskripsi Fitur dalam Dataset}
+\end{longtable}
+
+\section{Langkah Preprocessing dan Transformasi Data}
+Data mentah diolah melalui beberapa tahapan kunci untuk memaksimalkan potensinya dalam pemodelan.
+
+\subsection{Eksplorasi Data (EDA)}
+Langkah awal ini krusial untuk memahami data. Dengan membuat visualisasi seperti histogram dan heatmap, kami dapat mengidentifikasi pola, distribusi data, serta korelasi antar fitur. Wawasan dari EDA, seperti korelasi kuat antara G1/G2 dengan G3, menjadi dasar untuk pemilihan fitur di tahap selanjutnya.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/G3Dist.png}
+    \caption{Distribusi value G3}
+\end{figure}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/Heatmap.png}
+    \caption{Heatmap korelasi antar fitur}
+\end{figure}
+
+\subsection{Rekayasa Fitur (Feature Engineering)}
+Daripada hanya menggunakan fitur asli, kami membuat fitur-fitur baru yang lebih informatif. Contohnya, \texttt{grade\_avg\_prev} (rata-rata G1 dan G2) dibuat untuk menangkap sinyal kinerja akademik sebelumnya dalam satu variabel kuat. Langkah ini relevan karena seringkali kombinasi fitur memberikan informasi yang lebih berpengaruh daripada fitur individual.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/FeatureEng.png}
+    \caption{Fitur Baru yang Dibuat dari Data Asli}
+\end{figure}
 
 \subsection{One-Hot Encoding}
-Sebagian besar model machine learning hanya dapat bekerja dengan data numerik. Fitur-fitur kategorikal dalam dataset ini (seperti sex, address, higher) yang berbentuk teks perlu diubah menjadi representasi numerik. One-Hot Encoding adalah teknik yang digunakan untuk tujuan ini, di mana setiap kategori unik dalam sebuah fitur diubah menjadi kolom biner baru (bernilai 0 atau 1).
-
-\subsection{Penskalaan Fitur (Feature Scaling)}
-Fitur-fitur numerik seringkali memiliki rentang nilai yang sangat berbeda (misalnya, age (15-22) vs absences (0-93)). Jika tidak diskalakan, fitur dengan rentang nilai yang lebih besar dapat mendominasi proses pembelajaran model secara tidak adil. StandardScaler digunakan untuk mentransformasi setiap fitur sehingga memiliki rata-rata 0 dan standar deviasi 1. Langkah ini sangat krusial untuk model yang sensitif terhadap skala seperti Regresi Linear dan MLP.
-
-\section{Model yang Digunakan}
-Pemilihan model dilakukan secara strategis untuk membandingkan pendekatan dari berbagai paradigma dengan tingkat kompleksitas yang berbeda.
-
-\subsection{Regresi Linear}
-Model ini dipilih sebagai baseline atau titik awal perbandingan. Regresi Linear bekerja dengan mengasumsikan adanya hubungan linear antara fitur-fitur input dan variabel target. Ia mencoba menemukan satu formula matematis terbaik untuk memetakan input ke output. Meskipun sederhana, model ini sangat berguna untuk mengukur seberapa baik masalah dapat diselesaikan dengan pendekatan linear dan untuk menilai relevansi fitur yang dipilih.
-
-\subsection{Random Forest}
-Random Forest adalah perwakilan dari model ensemble berbasis pohon keputusan. Cara kerjanya adalah dengan membangun ratusan pohon keputusan secara independen, di mana setiap pohon dilatih pada sampel data yang sedikit berbeda. Untuk membuat prediksi, model ini mengambil rata-rata dari semua prediksi pohon individual. Pendekatan "wisdom of the crowd" ini membuatnya sangat kuat dalam menangkap interaksi fitur yang kompleks, robust terhadap noise, dan cenderung tidak overfitting, sehingga sangat cocok untuk data tabular seperti pada proyek ini.
-
-\subsection{XGBoost}
-XGBoost (eXtreme Gradient Boosting) dipilih sebagai perwakilan dari metode gradient boosting. Berbeda dari Random Forest, XGBoost membangun pohon keputusan secara sekuensial. Setiap pohon baru yang dibuat secara spesifik bertugas untuk memperbaiki kesalahan prediksi dari pohon-pohon sebelumnya. Proses belajar iteratif yang fokus pada kesalahan ini membuat XGBoost menjadi salah satu model dengan performa tertinggi di industri untuk masalah regresi dan klasifikasi pada data tabular.
-
-\subsection{Multi-Layer Perceptron (MLP)}
-MLP dipilih untuk menjelajahi pendekatan deep learning. Model ini bekerja seperti jaringan otak buatan, terdiri dari lapisan-lapisan "neuron" yang saling terhubung. MLP mampu belajar dan mengenali pola-pola yang sangat kompleks dan abstrak dari kombinasi semua fitur secara bersamaan. Model ini dipilih untuk menguji apakah arsitektur non-linear yang sangat fleksibel ini dapat menemukan pola yang terlewatkan oleh model berbasis pohon.
-
-\section{Metrik Evaluasi Model}
-Untuk mengukur dan membandingkan kinerja model secara objektif, dua metrik utama digunakan:
-
-\begin{itemize}
-\item \textbf{R-squared (R²):} Metrik ini mengukur seberapa besar persentase variasi (perbedaan) dalam variabel target (G3) yang dapat dijelaskan oleh model. Nilai R² berkisar dari 0 hingga 1, di mana nilai yang lebih tinggi menunjukkan model yang lebih baik.
-\item \textbf{RMSE (Root Mean Squared Error):} Metrik ini mengukur rata-rata besaran kesalahan prediksi model dalam satuan yang sama dengan variabel target. Dalam proyek ini, RMSE menunjukkan rata-rata berapa poin nilai prediksi meleset dari nilai sebenarnya. Nilai RMSE yang lebih rendah menunjukkan model yang lebih akurat.
-\end{itemize}
-%Isi Dasar Teori disini   
- %Hapus jika ada modul
+Model machine learning memerlukan input numerik. Fitur-fitur kategorikal seperti \texttt{sex} (`F'/`M') atau \texttt{higher} (`yes'/`no') diubah menjadi format biner (0 dan 1) melalui One-Hot Encoding. Transformasi ini wajib dilakukan agar algoritma dapat memproses semua informasi yang tersedia dalam dataset.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/OHE.png}
+    \caption{One-Hot Encoding untuk fitur dengan value non-numerik}
+\end{figure}
