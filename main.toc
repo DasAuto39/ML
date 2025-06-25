@@ -13,4 +13,8 @@
 \contentsline {section}{\numberline {5}Metrik Evaluasi Model}{5}{section.0.5}%
 \contentsline {chapter}{Hasil Praktikum}{6}{chapter*.3}%
 \contentsline {chapter}{Hasil}{7}{chapter*.4}%
-\contentsline {chapter}{Kesimpulan}{12}{chapter*.5}%
+\contentsline {section}{\numberline {6}Uji Coba dengan Data Siswa}{7}{section.0.6}%
+\contentsline {section}{\numberline {7}Evaluasi Model}{8}{section.0.7}%
+\contentsline {section}{\numberline {8}Visualisasi Scatter Plot}{11}{section.0.8}%
+\contentsline {chapter}{Diskusi}{13}{chapter*.5}%
+\contentsline {chapter}{Kesimpulan}{14}{chapter*.6}%
