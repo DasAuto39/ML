@@ -18,3 +18,4 @@
 \contentsline {section}{\numberline {7}Visualisasi Scatter Plot}{14}{section.0.7}%
 \contentsline {chapter}{Diskusi}{16}{chapter*.7}%
 \contentsline {chapter}{Kesimpulan}{17}{chapter*.8}%
+\contentsline {chapter}{Daftar Pustaka}{18}{chapter*.9}%
