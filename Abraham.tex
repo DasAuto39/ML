@@ -2,13 +2,10 @@
 \addcontentsline{toc}{chapter}{Dasar Teori}
 
 \section{Latar Belakang dan Relevansi}
-
 Di sistem pendidikan kita sekarang, bantuan untuk siswa yang kesulitan seringkali datang terlambat. Biasanya, sekolah baru akan bertindak---misalnya dengan mengadakan kelas remedial---setelah nilai ujian akhir keluar dan hasilnya kurang memuaskan. Tentu saja, pendekatan seperti ini punya kelemahan besar: bantuan diberikan saat semuanya sudah terjadi, di mana siswa mungkin sudah kehilangan motivasi.
-
 Di sinilah \textit{machine learning} bisa mengubah keadaan. Dengan menganalisis data-data siswa yang sudah ada---mulai dari data pribadi, pergaulan, dan terutama nilai-nilai sebelumnya---kita bisa membuat sebuah model prediksi. Model ini bisa berfungsi seperti ``sistem peringatan dini'' yang bisa menandai siswa mana yang kemungkinan besar akan gagal, jauh sebelum ujian akhir. Dengan kemampuan ini, para guru bisa memberikan bantuan yang lebih personal dan tepat waktu, sehingga peluang siswa untuk berhasil jadi lebih besar.
 
 \section{Tujuan dan Ruang Lingkup Proyek}
-
 Berdasarkan masalah di atas, tujuan utama dari proyek ini adalah:
 \begin{enumerate}
     \item Membuat dan melatih beberapa model \textit{machine learning} untuk memprediksi nilai akhir matematika siswa (\texttt{G3}).
@@ -30,8 +27,10 @@ Pendekatan untuk membandingkan berbagai model seperti ini sejalan dengan banyak 
 Al-Barrak, M. A., \& Al-Razgan, M. (2016). Predicting Students Final GPA Using Decision Trees: A Case Study. \textit{International Journal of Information and Education Technology, 6}(7), 528-533. doi:10.7763/IJIET.2016.V6.745.
 
 \vspace{0.2cm}
-
 Cortez, P. (2008). Student Performance [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5TG7T.
+
+\vspace{0.5cm}
+Dengan landasan teori ini, langkah selanjutnya adalah memahami secara mendalam dataset yang akan digunakan dalam proyek ini.
 
 \chapter*{DataSet}
 \addcontentsline{toc}{chapter}{DataSet}
@@ -122,3 +121,6 @@ Model machine learning memerlukan input numerik. Fitur-fitur kategorikal seperti
     \includegraphics[width=0.8\textwidth]{images/OHE.png}
     \caption{One-Hot Encoding untuk fitur dengan value non-numerik}
 \end{figure}
+
+\vspace{0.5cm}
+Setelah dataset dipahami dan diproses, fondasi telah siap untuk tahap inti proyek: pembangunan dan evaluasi model-model machine learning.
