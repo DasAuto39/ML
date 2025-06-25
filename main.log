@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.29)  25 JUN 2025 21:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.29)  25 JUN 2025 21:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -607,120 +607,693 @@ No file main.toc.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.118 \clearpage
+l.122 \clearpage
                  [1
 
 ]
 \openout2 = `Abraham.aux'.
 
  (Abraham.tex
-Overfull \hbox (1.41777pt too wide) in paragraph at lines 6--6
-[]\OT1/cmr/bx/n/17.28 Machine Le-ar-ning dan Su-pe-rvi-sed Le-ar-ning 
- []
-
-
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 14.
+ (C:\Users\Ridlohi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
 
 [2
 
 
 
-]
-Abraham.tex:17: Missing $ inserted.
-<inserted text> 
-                $
-l.17 ...ari fitur yang sudah ada (misalnya, grade_
-                                                  avg_prev) untuk meningkatk...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 17.
-
-Abraham.tex:18: LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \item
-           \textbf{Pra-pemrosesan Data (Preprocessing):} Menyiapkan dan ment...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Abraham.tex:18: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \item \textbf
-                  {Pra-pemrosesan Data (Preprocessing):} Menyiapkan dan ment...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Abraham.tex:18: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \item \textbf
-                  {Pra-pemrosesan Data (Preprocessing):} Menyiapkan dan ment...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Abraham.tex:19: LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 \item
-           \textbf{Pemodelan (Modeling):} Memilih, melatih, dan mengevaluasi...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Abraham.tex:19: Missing $ inserted.
-<inserted text> 
-                $
-l.19 \item \textbf
-                  {Pemodelan (Modeling):} Memilih, melatih, dan mengevaluasi...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Abraham.tex:19: Missing } inserted.
-<inserted text> 
-                }
-l.19 \item \textbf
-                  {Pemodelan (Modeling):} Memilih, melatih, dan mengevaluasi...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (1044.23961pt too wide) in paragraph at lines 17--19
-\OT1/cmr/m/n/12 yang le-bih in-for-ma-tif da-ri fi-tur yang su-dah ada (mi-sal-nya, grade$[]\OML/cmm/m/it/12 vg[]rev\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 untukmeningkatkansinyalprediktifbagimodel:[][][]Menyiapkandanmentransformasidataagarsesuaidenganformatyangdibutuhkanolehmodelmachinelearning:[][]$ 
+{C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+Overfull \hbox (10.67892pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/it/12 tion and Edu-ca-tion Te-ch-no-lo-gy, 6\OT1/cmr/m/n/12 (7), 528-533. doi:10.7763/IJIET.2016.V6.745. 
  []
 
-Abraham.tex:19: Extra }, or forgotten \endgroup.
-\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.19 \item \textbf
-                  {Pemodelan (Modeling):} Memilih, melatih, dan mengevaluasi...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3{C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+[4
+
+]
+
+Abraham.tex:60: LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 \begin{longtable}
+                      {|p{0.15\linewidth}|p{0.15\linewidth}|p{0.6\linewidth}|}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Abraham.tex:60: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.60 \begin{longtable}{|p{0.15\linewidth}
+                                         |p{0.15\linewidth}|p{0.6\linewidth}|}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Abraham.tex:60: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.60 \begin{longtable}{|p{0.15\linewidth}
+                                         |p{0.15\linewidth}|p{0.6\linewidth}|}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Abraham.tex:60: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.60 ...able}{|p{0.15\linewidth}|p{0.15\linewidth}
+                                                  |p{0.6\linewidth}|}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Abraham.tex:60: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.60 ...able}{|p{0.15\linewidth}|p{0.15\linewidth}
+                                                  |p{0.6\linewidth}|}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Abraham.tex:60: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.60 ...ewidth}|p{0.15\linewidth}|p{0.6\linewidth}
+                                                  |}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+Abraham.tex:60: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.60 ...ewidth}|p{0.15\linewidth}|p{0.6\linewidth}
+                                                  |}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Abraham.tex:61: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.61     \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+Abraham.tex:62: Misplaced alignment tab character &.
+l.62     \textbf{Nama Variabel} &
+                                  \textbf{Tipe Data} & \textbf{Deskripsi} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:62: Misplaced alignment tab character &.
+l.62 ...xtbf{Nama Variabel} & \textbf{Tipe Data} &
+                                                   \textbf{Deskripsi} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:63: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.63     \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+Abraham.tex:64: Undefined control sequence.
+<recently read> \endhead 
+                         
+l.64     \endhead
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Abraham.tex:65: Misplaced alignment tab character &.
+l.65     school &
+                  Kategorikal & Sekolah siswa (`GP' atau `MS') \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:65: Misplaced alignment tab character &.
+l.65     school & Kategorikal &
+                                Sekolah siswa (`GP' atau `MS') \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:66: Misplaced alignment tab character &.
+l.66     sex &
+               Biner & Jenis kelamin siswa (`F' atau `M') \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:66: Misplaced alignment tab character &.
+l.66     sex & Biner &
+                       Jenis kelamin siswa (`F' atau `M') \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:67: Misplaced alignment tab character &.
+l.67     age &
+               Integer & Usia siswa (15 hingga 22) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:67: Misplaced alignment tab character &.
+l.67     age & Integer &
+                         Usia siswa (15 hingga 22) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:68: Misplaced alignment tab character &.
+l.68     address &
+                   Kategorikal & Tipe alamat rumah (`U' - urban atau `R' - r...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:68: Misplaced alignment tab character &.
+l.68     address & Kategorikal &
+                                 Tipe alamat rumah (`U' - urban atau `R' - r...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:69: Misplaced alignment tab character &.
+l.69     famsize &
+                   Kategorikal & Ukuran keluarga (`LE3' - <=3 atau `GT3' - >...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:69: Misplaced alignment tab character &.
+l.69     famsize & Kategorikal &
+                                 Ukuran keluarga (`LE3' - <=3 atau `GT3' - >...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:70: Misplaced alignment tab character &.
+l.70     Pstatus &
+                   Kategorikal & Status kohabitasi orang tua (`T' - bersama ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:70: Misplaced alignment tab character &.
+l.70     Pstatus & Kategorikal &
+                                 Status kohabitasi orang tua (`T' - bersama ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:71: Misplaced alignment tab character &.
+l.71     Medu &
+                Integer & Pendidikan Ibu (0 - tidak ada, 4 - pendidikan ting...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:71: Misplaced alignment tab character &.
+l.71     Medu & Integer &
+                          Pendidikan Ibu (0 - tidak ada, 4 - pendidikan ting...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:72: Misplaced alignment tab character &.
+l.72     Fedu &
+                Integer & Pendidikan Ayah (0 - tidak ada, 4 - pendidikan tin...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:72: Misplaced alignment tab character &.
+l.72     Fedu & Integer &
+                          Pendidikan Ayah (0 - tidak ada, 4 - pendidikan tin...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:73: Misplaced alignment tab character &.
+l.73     Mjob &
+                Kategorikal & Pekerjaan Ibu (`teacher', `health', `services'...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:73: Misplaced alignment tab character &.
+l.73     Mjob & Kategorikal &
+                              Pekerjaan Ibu (`teacher', `health', `services'...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:74: Misplaced alignment tab character &.
+l.74     Fjob &
+                Kategorikal & Pekerjaan Ayah (`teacher', `health', `services...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:74: Misplaced alignment tab character &.
+l.74     Fjob & Kategorikal &
+                              Pekerjaan Ayah (`teacher', `health', `services...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:75: Misplaced alignment tab character &.
+l.75     studytime &
+                     Integer & Waktu belajar mingguan (1 - <2 jam, 4 - >10 j...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:75: Misplaced alignment tab character &.
+l.75     studytime & Integer &
+                               Waktu belajar mingguan (1 - <2 jam, 4 - >10 j...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:76: Misplaced alignment tab character &.
+l.76     failures &
+                    Integer & Jumlah kegagalan kelas sebelumnya (0-4) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:76: Misplaced alignment tab character &.
+l.76     failures & Integer &
+                              Jumlah kegagalan kelas sebelumnya (0-4) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:77: Misplaced alignment tab character &.
+l.77     schoolsup &
+                     Biner & Dukungan pendidikan ekstra dari sekolah (yes/no...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:77: Misplaced alignment tab character &.
+l.77     schoolsup & Biner &
+                             Dukungan pendidikan ekstra dari sekolah (yes/no...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:78: Misplaced alignment tab character &.
+l.78     famsup &
+                  Biner & Dukungan pendidikan dari keluarga (yes/no) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:78: Misplaced alignment tab character &.
+l.78     famsup & Biner &
+                          Dukungan pendidikan dari keluarga (yes/no) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:79: Misplaced alignment tab character &.
+l.79     activities &
+                      Biner & Mengikuti kegiatan ekstrakurikuler (yes/no) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:79: Misplaced alignment tab character &.
+l.79     activities & Biner &
+                              Mengikuti kegiatan ekstrakurikuler (yes/no) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:80: Misplaced alignment tab character &.
+l.80     higher &
+                  Biner & Ingin melanjutkan ke pendidikan tinggi (yes/no) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:80: Misplaced alignment tab character &.
+l.80     higher & Biner &
+                          Ingin melanjutkan ke pendidikan tinggi (yes/no) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:81: Misplaced alignment tab character &.
+l.81     internet &
+                    Biner & Akses internet di rumah (yes/no) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:81: Misplaced alignment tab character &.
+l.81     internet & Biner &
+                            Akses internet di rumah (yes/no) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:82: Misplaced alignment tab character &.
+l.82     romantic &
+                    Biner & Dalam hubungan romantis (yes/no) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:82: Misplaced alignment tab character &.
+l.82     romantic & Biner &
+                            Dalam hubungan romantis (yes/no) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:83: Misplaced alignment tab character &.
+l.83     famrel &
+                  Integer & Kualitas hubungan keluarga (1 - sangat buruk, 5 ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:83: Misplaced alignment tab character &.
+l.83     famrel & Integer &
+                            Kualitas hubungan keluarga (1 - sangat buruk, 5 ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:84: Misplaced alignment tab character &.
+l.84     goout &
+                 Integer & Frekuensi pergi keluar bersama teman (1 - sangat ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:84: Misplaced alignment tab character &.
+l.84     goout & Integer &
+                           Frekuensi pergi keluar bersama teman (1 - sangat ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:85: Misplaced alignment tab character &.
+l.85     health &
+                  Integer & Status kesehatan saat ini (1 - sangat buruk, 5 -...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:85: Misplaced alignment tab character &.
+l.85     health & Integer &
+                            Status kesehatan saat ini (1 - sangat buruk, 5 -...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:86: Misplaced alignment tab character &.
+l.86     absences &
+                    Integer & Jumlah absensi sekolah (0 hingga 93) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:86: Misplaced alignment tab character &.
+l.86     absences & Integer &
+                              Jumlah absensi sekolah (0 hingga 93) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:87: Misplaced alignment tab character &.
+l.87     G1 &
+              Target & Nilai periode pertama (0 hingga 20) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:87: Misplaced alignment tab character &.
+l.87     G1 & Target &
+                       Nilai periode pertama (0 hingga 20) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:88: Misplaced alignment tab character &.
+l.88     G2 &
+              Target & Nilai periode kedua (0 hingga 20) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:88: Misplaced alignment tab character &.
+l.88     G2 & Target &
+                       Nilai periode kedua (0 hingga 20) \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:89: Misplaced alignment tab character &.
+l.89     G3 &
+              Target & Nilai akhir (0 hingga 20) --- **Output Target Utama** \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:89: Misplaced alignment tab character &.
+l.89     G3 & Target &
+                       Nilai akhir (0 hingga 20) --- **Output Target Utama** \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Abraham.tex:90: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.90     \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--90
+
+ []
+
+
+Abraham.tex:91: LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91     \caption
+                 {Deskripsi Fitur dalam Dataset}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 
@@ -731,7 +1304,47 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3]
+[5]
+
+Abraham.tex:92: LaTeX Error: \begin{document} ended by \end{longtable}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 \end{longtable}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/G3Dist.png, id=77, 859.2903pt x 354.123pt>
+File: images/G3Dist.png Graphic file (type png)
+<use images/G3Dist.png>
+Package pdftex.def Info: images/G3Dist.png  used on input line 101.
+(pdftex.def)             Requested size: 312.00119pt x 128.57567pt.
+<images/Heatmap.png, id=78, 1581.2676pt x 1438.173pt>
+File: images/Heatmap.png Graphic file (type png)
+<use images/Heatmap.png>
+Package pdftex.def Info: images/Heatmap.png  used on input line 106.
+(pdftex.def)             Requested size: 312.00119pt x 283.76723pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/FeatureEng.png, id=79, 351.3125pt x 126.4725pt>
+File: images/FeatureEng.png Graphic file (type png)
+<use images/FeatureEng.png>
+Package pdftex.def Info: images/FeatureEng.png  used on input line 114.
+(pdftex.def)             Requested size: 312.00119pt x 112.32858pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/OHE.png, id=80, 462.72874pt x 77.28876pt>
+File: images/OHE.png Graphic file (type png)
+<use images/OHE.png>
+Package pdftex.def Info: images/OHE.png  used on input line 122.
+(pdftex.def)             Requested size: 312.00119pt x 52.1134pt.
+)
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -740,7 +1353,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4])
+[6 <./images/G3Dist.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -749,12 +1366,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5{C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+[7 <./images/Heatmap.png> <./images/FeatureEng.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8 <./images/OHE.png>]
 \openout2 = `Risang.aux'.
 
  (Risang.tex)
 
-[6
+[9
 
 
 
@@ -763,25 +1389,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout2 = `Akhriz.aux'.
 
  (Akhriz.tex
-<images/datasiswa2.png, id=89, 727.96968pt x 483.30562pt>
+<images/datasiswa2.png, id=111, 727.96968pt x 483.30562pt>
 File: images/datasiswa2.png Graphic file (type png)
 <use images/datasiswa2.png>
 Package pdftex.def Info: images/datasiswa2.png  used on input line 15.
 (pdftex.def)             Requested size: 312.00119pt x 207.14627pt.
 
 
-[7
+[10
 
 
 
 
  <./images/datasiswa2.png>]
-<images/hasil2.png, id=98, 511.15968pt x 396.7322pt>
+<images/hasil2.png, id=120, 511.15968pt x 396.7322pt>
 File: images/hasil2.png Graphic file (type png)
 <use images/hasil2.png>
 Package pdftex.def Info: images/hasil2.png  used on input line 25.
 (pdftex.def)             Requested size: 312.00119pt x 242.15762pt.
-<images/datasiswa1.png, id=99, 863.47594pt x 462.22687pt>
+<images/datasiswa1.png, id=121, 863.47594pt x 462.22687pt>
 File: images/datasiswa1.png Graphic file (type png)
 <use images/datasiswa1.png>
 Package pdftex.def Info: images/datasiswa1.png  used on input line 34.
@@ -790,7 +1416,7 @@ Package pdftex.def Info: images/datasiswa1.png  used on input line 34.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/hasil1.png, id=100, 1006.51031pt x 566.115pt>
+<images/hasil1.png, id=122, 1006.51031pt x 566.115pt>
 File: images/hasil1.png Graphic file (type png)
 <use images/hasil1.png>
 Package pdftex.def Info: images/hasil1.png  used on input line 44.
@@ -798,7 +1424,7 @@ Package pdftex.def Info: images/hasil1.png  used on input line 44.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/rmse.png, id=101, 1193.20781pt x 563.85657pt>
+<images/rmse.png, id=123, 1193.20781pt x 563.85657pt>
 File: images/rmse.png Graphic file (type png)
 <use images/rmse.png>
 Package pdftex.def Info: images/rmse.png  used on input line 56.
@@ -806,7 +1432,7 @@ Package pdftex.def Info: images/rmse.png  used on input line 56.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/r-squared.png, id=102, 1207.51125pt x 621.82312pt>
+<images/r-squared.png, id=124, 1207.51125pt x 621.82312pt>
 File: images/r-squared.png Graphic file (type png)
 <use images/r-squared.png>
 Package pdftex.def Info: images/r-squared.png  used on input line 63.
@@ -823,7 +1449,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8 <./images/hasil2.png>]
+[11 <./images/hasil2.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -832,8 +1458,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9 <./images/datasiswa1.png> <./images/hasil1.png>]
-<images/scatter_plot.png, id=118, 1308.38812pt x 648.17157pt>
+[12 <./images/datasiswa1.png> <./images/hasil1.png>]
+<images/scatter_plot.png, id=141, 1308.38812pt x 648.17157pt>
 File: images/scatter_plot.png Graphic file (type png)
 <use images/scatter_plot.png>
 Package pdftex.def Info: images/scatter_plot.png  used on input line 92.
@@ -847,7 +1473,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10 <./images/rmse.png> <./images/r-squared.png>]
+[13 <./images/rmse.png> <./images/r-squared.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -856,7 +1482,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11 <./images/scatter_plot.png>]
+[14 <./images/scatter_plot.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -865,16 +1491,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12])
+[15])
 
-[13
+[16
 
 ]
 \openout2 = `Kesimpulan.aux'.
 
  (Kesimpulan.tex)
 
-[14
+[17
 
 
 
@@ -895,20 +1521,20 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  A82F2C9FCDA5561FCF93A531B3B548FB;2928.
+(rerunfilecheck)             After:  DC606A955EF10CC8721FED5DEF8D89B9;2973.
  ) 
 Here is how much of TeX's memory you used:
- 28035 strings out of 473897
- 583425 string characters out of 5725517
- 1063642 words of memory out of 5000000
- 50401 multiletter control sequences out of 15000+600000
- 564648 words of font info for 57 fonts, out of 8000000 for 9000
+ 28095 strings out of 473897
+ 584659 string characters out of 5725517
+ 1062642 words of memory out of 5000000
+ 50456 multiletter control sequences out of 15000+600000
+ 562378 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,11n,101p,653b,588s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (15 pages, 2306940 bytes).
+ 98i,12n,101p,769b,565s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on main.pdf (18 pages, 3194783 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 216 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
