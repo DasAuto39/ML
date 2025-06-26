@@ -559,8 +559,7 @@ File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@layerboxsaved@background=\box103
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 48.
-
-No file main.aux.
+ (main.aux (Abraham.aux) (Risang.aux) (Akhriz.aux) (Kesimpulan.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
@@ -581,7 +580,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
 LaTeX Font Info:    ... okay on input line 92.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
 LaTeX Font Info:    ... okay on input line 92.
-(C:\Users\Ridlohi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (C:\Users\Ridlohi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count327
 \scratchdimen=\dimen274
@@ -601,11 +600,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring ON on input line 92.
+ (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 \c@lstlisting=\count333
-<images/logo-tekkom.png, id=30, 4111.36pt x 4111.36pt>
+<images/logo-tekkom.png, id=110, 4111.36pt x 4111.36pt>
 File: images/logo-tekkom.png Graphic file (type png)
 <use images/logo-tekkom.png>
 Package pdftex.def Info: images/logo-tekkom.png  used on input line 98.
@@ -614,8 +614,14 @@ Package pdftex.def Info: images/logo-tekkom.png  used on input line 98.
 
 [1
 
-{C:/Users/Ridlohi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/logo-tekkom.png>]
-No file main.toc.
+{C:/Users/Ridlohi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/logo-tekkom.png>] (main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3.
+)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
@@ -735,12 +741,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
-<images/G3Dist.png, id=77, 859.2903pt x 354.123pt>
+<images/G3Dist.png, id=169, 859.2903pt x 354.123pt>
 File: images/G3Dist.png Graphic file (type png)
 <use images/G3Dist.png>
 Package pdftex.def Info: images/G3Dist.png  used on input line 105.
 (pdftex.def)             Requested size: 312.00119pt x 128.57567pt.
-<images/Heatmap.png, id=78, 1581.2676pt x 1438.173pt>
+<images/Heatmap.png, id=170, 1581.2676pt x 1438.173pt>
 File: images/Heatmap.png Graphic file (type png)
 <use images/Heatmap.png>
 Package pdftex.def Info: images/Heatmap.png  used on input line 110.
@@ -752,7 +758,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/FeatureEng.png, id=79, 351.3125pt x 126.4725pt>
+<images/FeatureEng.png, id=171, 351.3125pt x 126.4725pt>
 File: images/FeatureEng.png Graphic file (type png)
 <use images/FeatureEng.png>
 Package pdftex.def Info: images/FeatureEng.png  used on input line 118.
@@ -760,7 +766,7 @@ Package pdftex.def Info: images/FeatureEng.png  used on input line 118.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/OHE.png, id=80, 462.72874pt x 77.28876pt>
+<images/OHE.png, id=172, 462.72874pt x 77.28876pt>
 File: images/OHE.png Graphic file (type png)
 <use images/OHE.png>
 Package pdftex.def Info: images/OHE.png  used on input line 126.
@@ -814,7 +820,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--11
 
  []
 
-<images/datasiswa2.png, id=111, 727.96968pt x 483.30562pt>
+<images/datasiswa2.png, id=198, 727.96968pt x 483.30562pt>
 File: images/datasiswa2.png Graphic file (type png)
 <use images/datasiswa2.png>
 Package pdftex.def Info: images/datasiswa2.png  used on input line 18.
@@ -822,7 +828,7 @@ Package pdftex.def Info: images/datasiswa2.png  used on input line 18.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/hasil2.png, id=112, 511.15968pt x 396.7322pt>
+<images/hasil2.png, id=199, 511.15968pt x 396.7322pt>
 File: images/hasil2.png Graphic file (type png)
 <use images/hasil2.png>
 Package pdftex.def Info: images/hasil2.png  used on input line 28.
@@ -830,7 +836,7 @@ Package pdftex.def Info: images/hasil2.png  used on input line 28.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/datasiswa1.png, id=113, 863.47594pt x 462.22687pt>
+<images/datasiswa1.png, id=200, 863.47594pt x 462.22687pt>
 File: images/datasiswa1.png Graphic file (type png)
 <use images/datasiswa1.png>
 Package pdftex.def Info: images/datasiswa1.png  used on input line 37.
@@ -838,7 +844,7 @@ Package pdftex.def Info: images/datasiswa1.png  used on input line 37.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/hasil1.png, id=114, 1006.51031pt x 566.115pt>
+<images/hasil1.png, id=201, 1006.51031pt x 566.115pt>
 File: images/hasil1.png Graphic file (type png)
 <use images/hasil1.png>
 Package pdftex.def Info: images/hasil1.png  used on input line 47.
@@ -846,182 +852,7 @@ Package pdftex.def Info: images/hasil1.png  used on input line 47.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/rmse.png, id=115, 1193.20781pt x 563.85657pt>
+<images/rmse.png, id=202, 1193.20781pt x 563.85657pt>
 File: images/rmse.png Graphic file (type png)
 <use images/rmse.png>
-Package pdftex.def Info: images/rmse.png  used on input line 59.
-(pdftex.def)             Requested size: 312.00119pt x 147.4338pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/r-squared.png, id=116, 1207.51125pt x 621.82312pt>
-File: images/r-squared.png Graphic file (type png)
-<use images/r-squared.png>
-Package pdftex.def Info: images/r-squared.png  used on input line 66.
-(pdftex.def)             Requested size: 312.00119pt x 160.66444pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--77
-
- []
-
-
-
-[10
-
-
-
-
-]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[11 <./images/datasiswa2.png>]
-<images/scatter_plot.png, id=130, 1308.38812pt x 648.17157pt>
-File: images/scatter_plot.png Graphic file (type png)
-<use images/scatter_plot.png>
-Package pdftex.def Info: images/scatter_plot.png  used on input line 93.
-(pdftex.def)             Requested size: 312.00119pt x 154.56543pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--101
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--106
-
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[12 <./images/hasil2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 107--111
-
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[13 <./images/datasiswa1.png> <./images/hasil1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 112--115
-
- []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[14 <./images/rmse.png> <./images/r-squared.png>]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[15 <./images/scatter_plot.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 127--131
-
- []
-
-)
-
-[16
-
-]
-\openout2 = `Kesimpulan.aux'.
-
- (Kesimpulan.tex
-
-[17
-
-
-
-
-]
-Overfull \hbox (70.20389pt too wide) in paragraph at lines 16--17
-\OT1/cmr/m/it/12 for-ma-tion and Edu-ca-tion Te-ch-no-lo-gy, 6\OT1/cmr/m/n/12 (7), 528-533. doi:10.7763/IJIET.2016.V6.745. 
- []
-
-
-Overfull \hbox (5.61395pt too wide) in paragraph at lines 18--19
-\OT1/cmr/m/it/12 Flow\OT1/cmr/m/n/12 . Di-ak-ses da-ri https://www.geeksforgeeks.org/deep-learning/multi-
- []
-
-
-Overfull \hbox (6.78477pt too wide) in paragraph at lines 20--21
-\OT1/cmr/m/n/12 Di-ak-ses da-ri https://www.geeksforgeeks.org/machine-learning/xgboost/ 
- []
-
-
-Overfull \hbox (49.05377pt too wide) in paragraph at lines 22--23
-\OT1/cmr/m/n/12 da-ri https://www.geeksforgeeks.org/machine-learning/random-forest-regression-
- []
-
-)
-
-[18
-
-] (main.aux (Abraham.aux) (Risang.aux) (Akhriz.aux) (Kesimpulan.aux))
- ***********
-LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-10-09>
- ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  ACD7712526E62B6AB658BF995A3CE3E8;3091.
- ) 
-Here is how much of TeX's memory you used:
- 28203 strings out of 473897
- 586167 string characters out of 5725517
- 1079945 words of memory out of 5000000
- 50554 multiletter control sequences out of 15000+600000
- 562378 words of font info for 50 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 98i,11n,101p,769b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (19 pages, 3200448 bytes).
-PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+Package pdftex.def Info: images/rmse.png  use
