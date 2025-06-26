@@ -23,13 +23,7 @@ Untuk mencapai tujuan itu, proyek ini punya batasan (ruang lingkup) sebagai beri
 
 Pendekatan untuk membandingkan berbagai model seperti ini sejalan dengan banyak penelitian di bidang \textit{Educational Data Mining}. Sebagai contoh, sebuah studi oleh Al-Barrak dan Al-Razgan (2016) juga membandingkan beberapa algoritma, termasuk \textit{Decision Trees} (yang menjadi dasar dari Random Forest dan XGBoost), untuk memprediksi IPK mahasiswa. Studi mereka juga menemukan bahwa nilai-nilai sebelumnya adalah faktor prediksi terkuat, sebuah temuan yang menjadi fondasi utama dalam analisis kami.
 
-\section*{Referensi}
-Al-Barrak, M. A., \& Al-Razgan, M. (2016). Predicting Students Final GPA Using Decision Trees: A Case Study. \textit{International Journal of Information and Education Technology, 6}(7), 528-533. doi:10.7763/IJIET.2016.V6.745.
 
-\vspace{0.2cm}
-Cortez, P. (2008). Student Performance [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5TG7T.
-
-\vspace{0.5cm}
 Dengan landasan teori ini, langkah selanjutnya adalah memahami secara mendalam dataset yang akan digunakan dalam proyek ini.
 
 \chapter*{DataSet}
@@ -57,38 +51,52 @@ Dataset yang kami pilih untuk proyek ini, yaitu ``Student Performance Data Set''
 \subsection{Fitur-fitur Relevan}
 Berikut adalah deskripsi dari fitur-fitur utama yang terdapat dalam dataset:
 \begin{longtable}{|p{0.15\linewidth}|p{0.15\linewidth}|p{0.6\linewidth}|}
+    \caption{Deskripsi Fitur dalam Dataset} \\
+    \hline
+    \textbf{Nama Variabel} & \textbf{Tipe Data} & \textbf{Deskripsi} \\
+    \hline
+    \endfirsthead
+
     \hline
     \textbf{Nama Variabel} & \textbf{Tipe Data} & \textbf{Deskripsi} \\
     \hline
     \endhead
-    school & Kategorikal & Sekolah siswa (`GP' atau `MS') \\
-    sex & Biner & Jenis kelamin siswa (`F' atau `M') \\
+
+    \hline
+    \endfoot
+
+    \hline
+    \endlastfoot
+
+    school & Kategorikal & Sekolah siswa (`GP` atau `MS`) \\
+    sex & Biner & Jenis kelamin siswa (`F` atau `M`) \\
     age & Integer & Usia siswa (15 hingga 22) \\
-    address & Kategorikal & Tipe alamat rumah (`U' - urban atau `R' - rural) \\
-    famsize & Kategorikal & Ukuran keluarga (`LE3' - <=3 atau `GT3' - >3) \\
-    Pstatus & Kategorikal & Status kohabitasi orang tua (`T' - bersama atau `A' - berpisah) \\
-    Medu & Integer & Pendidikan Ibu (0 - tidak ada, 4 - pendidikan tinggi) \\
-    Fedu & Integer & Pendidikan Ayah (0 - tidak ada, 4 - pendidikan tinggi) \\
-    Mjob & Kategorikal & Pekerjaan Ibu (`teacher', `health', `services', dll.) \\
-    Fjob & Kategorikal & Pekerjaan Ayah (`teacher', `health', `services', dll.) \\
-    studytime & Integer & Waktu belajar mingguan (1 - <2 jam, 4 - >10 jam) \\
-    failures & Integer & Jumlah kegagalan kelas sebelumnya (0-4) \\
-    schoolsup & Biner & Dukungan pendidikan ekstra dari sekolah (yes/no) \\
-    famsup & Biner & Dukungan pendidikan dari keluarga (yes/no) \\
-    activities & Biner & Mengikuti kegiatan ekstrakurikuler (yes/no) \\
-    higher & Biner & Ingin melanjutkan ke pendidikan tinggi (yes/no) \\
-    internet & Biner & Akses internet di rumah (yes/no) \\
-    romantic & Biner & Dalam hubungan romantis (yes/no) \\
-    famrel & Integer & Kualitas hubungan keluarga (1 - sangat buruk, 5 - sangat baik) \\
-    goout & Integer & Frekuensi pergi keluar bersama teman (1 - sangat jarang, 5 - sangat sering) \\
-    health & Integer & Status kesehatan saat ini (1 - sangat buruk, 5 - sangat baik) \\
+    address & Kategorikal & Tipe alamat rumah (`U` - urban atau `R` - rural) \\
+    famsize & Kategorikal & Ukuran keluarga (`LE3` - ≤3 atau `GT3` - >3) \\
+    Pstatus & Kategorikal & Status kohabitasi orang tua (`T` - bersama atau `A` - berpisah) \\
+    Medu & Integer & Pendidikan Ibu (0 = tidak ada, 4 = pendidikan tinggi) \\
+    Fedu & Integer & Pendidikan Ayah (0 = tidak ada, 4 = pendidikan tinggi) \\
+    Mjob & Kategorikal & Pekerjaan Ibu (`teacher`, `health`, `services`, dll.) \\
+    Fjob & Kategorikal & Pekerjaan Ayah (`teacher`, `health`, `services`, dll.) \\
+    studytime & Integer & Waktu belajar mingguan (1 = <2 jam, 4 = >10 jam) \\
+    failures & Integer & Jumlah kegagalan kelas sebelumnya (0–4) \\
+    schoolsup & Biner & Dukungan pendidikan ekstra dari sekolah (`yes`/`no`) \\
+    famsup & Biner & Dukungan pendidikan dari keluarga (`yes`/`no`) \\
+    activities & Biner & Mengikuti kegiatan ekstrakurikuler (`yes`/`no`) \\
+    higher & Biner & Ingin melanjutkan ke pendidikan tinggi (`yes`/`no`) \\
+    internet & Biner & Akses internet di rumah (`yes`/`no`) \\
+    romantic & Biner & Dalam hubungan romantis (`yes`/`no`) \\
+    famrel & Integer & Kualitas hubungan keluarga (1 = sangat buruk, 5 = sangat baik) \\
+    goout & Integer & Frekuensi pergi keluar bersama teman (1 = sangat jarang, 5 = sangat sering) \\
+    health & Integer & Status kesehatan saat ini (1 = sangat buruk, 5 = sangat baik) \\
     absences & Integer & Jumlah absensi sekolah (0 hingga 93) \\
     G1 & Target & Nilai periode pertama (0 hingga 20) \\
     G2 & Target & Nilai periode kedua (0 hingga 20) \\
-    G3 & Target & Nilai akhir (0 hingga 20) --- **Output Target Utama** \\
-    \hline
-    \caption{Deskripsi Fitur dalam Dataset}
+    G3 & Target & Nilai akhir (0 hingga 20) — \textbf{Output Target Utama} \\
 \end{longtable}
+
+ \item \textbf{Perlu Diperhatikan} terdapat beberapa fitur dari dataset yang tidak kami gunakan karena kami anggap kurang relevan, namun terdapat beberapa fitur yang kami tingkatkan relevansinya menggunakan Feature Engineering agar dapat digunakan. 
+
 
 \section{Langkah Preprocessing dan Transformasi Data}
 Data mentah diolah melalui beberapa tahapan kunci untuk memaksimalkan potensinya dalam pemodelan.
