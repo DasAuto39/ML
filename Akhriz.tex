@@ -5,7 +5,9 @@ Kami melakukan uji coba model dengan skenario dataset yang memiliki total 33 fit
 meliputi nilai ujian sebelumnya {(G1, G2, dan rata-ratanya)}, data demografi dan keluarga {(usia, pendidikan orang tua, jenis kelamin, alamat)}, 
 serta kebiasaan belajar dan sekolah (waktu belajar, kegagalan sebelumnya, absensi, akses internet, partisipasi kegiatan). Kami juga menyertakan 
 aspek gaya hidup dan sosial siswa, seperti frekuensi bersosialisasi, status kesehatan, status hubungan romantis, dan konsumsi alkohol, dengan jumlah
-siswa total 395.
+siswa total 395. Untuk Model Linear Regression yang menggunakan fitur baseline hanya menggunakan fitur absences(Total tidak mengikuti kelas ), 
+dan study time.\\
+
 Setelah melakukan uji coba didapatkan hasil sebagai berikut
 
 \section{Uji Coba dengan Data Siswa}
@@ -69,13 +71,11 @@ Dari data tersebut RandomForest Regressor mendapatkan nilai RMSE yang lebih rend
 Linear Regression dengan fitur yang lengkap, lalu MLP TensorFlow. Nilai RMSE menunjukkan berapa rentang error yang dihasilkan oleh data. 
 Untuk R-Squared, RandomForest Regressor juga merupakan yang paling baik di antara model yang ada. R-Squared menunjukkan informasi mengenai 
 bagaimana model tersebut menjelaskan variabilitas data terhadap model yang digunakan. R-Squared menggambarkan seberapa baik model sesuai 
-dengan data yang digunakan.
-
-Secara teknis, RandomForest Regressor mungkin lebih cocok untuk dataset yang relatif lebih kecil dibandingkan MLP TensorFlow dan XGBoost. 
-RandomForest umumnya dianggap lebih tidak rumit dalam interpretasi dan implementasi dibandingkan dua model lainnya.
+dengan data yang digunakan. Secara teknis, RandomForest Regressor mungkin lebih cocok untuk dataset yang relatif lebih kecil dibandingkan
+MLP TensorFlow dan XGBoost.RandomForest kami anggap lebih tidak rumit dalam interpretasi dan implementasi dibandingkan dua model lainnya.\\
 
 Dapat dilihat bahwa performa model RandomForest Regressor adalah model dengan prediksi yang paling akurat dibandingkan dengan model-model lain. 
-Hal ini dapat terjadi dikarenakan RandomForest Regressor merupakan model yang memang cocok untuk dataset yang lebih kecil daripada MLP TensorFlow 
+Hal ini dapat terjadi dikarenakan RandomForest Regressor merupakan model yang memang cocok untuk dataset yang lebih kecil daripada menggunakan MLP TensorFlow 
 dan XGBoost. Jika dibandingkan secara teknis, RandomForest merupakan model yang paling tidak rumit dibanding dua model tersebut. RandomForest 
 Regressor bekerja dengan membuat decision tree secara paralel dengan memilih data secara acak, dan dari decision tree yang sudah dibuat secara 
 paralel nilai prediksi dari setiap decision tree tersebut akan dirata-rata untuk mendapatkan hasilnya. XGBoost juga masih menggunakan decision 
@@ -96,21 +96,21 @@ Kami juga melakukan visualisasi menggunakan scatter plot.
 
 Dari visualisasi scatter plot yang membandingkan nilai aktual dengan nilai prediksi untuk setiap model, beberapa wawasan penting dapat ditarik 
 mengenai performa dan karakteristik setiap algoritma. Idealnya, titik-titik pada scatter plot harus terkonsentrasi rapat di sepanjang garis 
-diagonal merah (y=x), menunjukkan bahwa nilai prediksi sangat mendekati nilai aktual.
+diagonal merah (y=x), menunjukkan bahwa nilai prediksi sangat mendekati nilai aktual.\\
 
 Model RandomForest Regressor dan XGBoost menunjukkan performa yang paling baik dalam visualisasi ini. Titik-titik data untuk kedua model ini 
 tampak paling padat dan terpusat di sekitar garis diagonal. Ini mengindikasikan bahwa baik RandomForest maupun XGBoost mampu menangkap hubungan 
-kompleks dalam data dan menghasilkan prediksi yang konsisten dan akurat di berbagai rentang nilai G3. Kerapatan titik di sekitar garis menunjukkan bahwa error prediksi (perbedaan antara aktual dan prediksi) cenderung kecil dan terdistribusi merata.
+kompleks dalam data dan menghasilkan prediksi yang konsisten dan akurat di berbagai rentang nilai G3. Kerapatan titik di sekitar garis 
+menunjukkan bahwa error prediksi (perbedaan antara aktual dan prediksi) cenderung kecil dan terdistribusi merata.\\
 
 Sebaliknya, model Linear Regression yang menggunakan fitur baseline menunjukkan sebaran titik yang lebih luas dan menyebar jauh dari garis 
 diagonal. Ini terutama terlihat pada nilai-nilai G3 yang lebih ekstrem (sangat rendah atau sangat tinggi), di mana prediksi cenderung 
 menyimpang lebih jauh dari nilai aktual. Sebaran yang lebih tersebar tidak merata mencerminkan keterbatasan model linear dalam menangkap 
-hubungan non-linear atau interaksi kompleks antar fitur, yang mengakibatkan nilai RMSE yang lebih tinggi dibandingkan model berbasis pohon 
-atau jaringan saraf.
+hubungan non-linear atau interaksi kompleks antar fitur, yang mengakibatkan nilai RMSE yang lebih tinggi dibandingkan model berbasis pohon dan MLP TensorFlow   .\\
 
-Model MLP TensorFlow menunjukkan performa yang kuat, berada di antara Linear Regression dan RandomForest/XGBoost. Meskipun titik-titiknya tidak 
+Model MLP TensorFlow menunjukkan performa yang kurang baik, berada setelah Linear Regression yang menggunakan fitur lengka dan RandomForest/XGBoost. Meskipun titik-titiknya tidak 
 sepadat RandomForest atau XGBoost, mereka tetap menunjukkan konsentrasi yang baik di sekitar garis diagonal. Ini menegaskan bahwa MLP adalah 
-model yang efektif dan mampu memberikan prediksi yang cukup akurat, meskipun dalam kasus ini RandomForest sedikit unggul.
+model yang efektif dan mampu memberikan prediksi yang cukup akurat, meskipun dalam kasus ini RandomForest sedikit unggul.\\
 
 Secara keseluruhan, scatter plot ini secara visual mengkonfirmasi metrik evaluasi yang disajikan sebelumnya. Model-model yang memiliki nilai 
 R-Squared tinggi dan RMSE rendah (seperti RandomForest dan XGBoost) ditunjukkan dengan titik-titik yang sangat dekat dengan garis ideal, 
@@ -121,6 +121,12 @@ nilai di mana suatu model mungkin berkinerja kurang baik atau di mana terdapat o
 
 \chapter*{Diskusi}
 \addcontentsline{toc}{chapter}{Diskusi}
+
+
+Saat kami hanya menggunakan beberapa fitur, nilai prediksi sangatlah tidak akurat, baru setelah kami menggunakan fitur yang lebih banyak dan mempunyai pengaruh pada nilai G3 dan membuat fitur 
+baru dari beberapa fitur nilai prediksi menjadi akurat, hal ini dapat terlihat pada hasil prediksi menggunakan model linear regressi yang menggunakan
+fitur baseline dan fitur yang lengkap perbedaan keakuratan nilai prediksi sangatlah jauh, sehingga kami menyadari bahwa menggunakan fitur yang berkaitan 
+dengan nilai yang ingin dicari sangat penting untuk mencapai nilai prediksi model yang baik\\
 
 Hasil yang diperoleh dari uji model menggunakan dataset ini adalah model RandomForest Regressor yang terbaik pada skenario ini yaitu dataset 
 yang memiliki banyak fitur namun jumlah data yang ada pada dataset hanya 395 dimana data ini relatif cukup kecil jika dibandingkan dengan lainnya.

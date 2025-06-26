@@ -234,6 +234,8 @@ INPUT C:\Users\Ridlohi\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr
 INPUT C:\Users\Ridlohi\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
 INPUT C:\Users\Ridlohi\AppData\Local\Programs\MiKTeX\tex\latex\tools\indentfirst.sty
 INPUT C:\Users\Ridlohi\AppData\Local\Programs\MiKTeX\tex\latex\tools\indentfirst.sty
+INPUT C:\Users\Ridlohi\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\Ridlohi\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
 INPUT C:\Users\Ridlohi\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarymindmap.code.tex
 INPUT C:\Users\Ridlohi\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarymindmap.code.tex
 INPUT C:\Users\Ridlohi\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytrees.code.tex
@@ -289,6 +291,9 @@ INPUT C:\Users\Ridlohi\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\p
 OUTPUT main.pdf
 INPUT C:\Users\Ridlohi\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarybackgrounds.code.tex
 INPUT C:\Users\Ridlohi\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarybackgrounds.code.tex
+INPUT .\main.aux
+INPUT .\main.aux
+INPUT main.aux
 OUTPUT main.aux
 INPUT C:\Users\Ridlohi\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Ridlohi\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
