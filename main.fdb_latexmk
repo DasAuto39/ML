@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1750899547.97694 "f:/College/Y2/Summer/Machine Learning/FP/Laporan/ML/main.tex" "main.pdf" "main" 1750899559.71745 2
-  "Abraham.aux" 1750899558 3096 95d5da1437e0182a37d49217ebba04c2 "pdflatex"
+["pdflatex"] 1750899779.3099 "f:/College/Y2/Summer/Machine Learning/FP/Laporan/ML/main.tex" "main.pdf" "main" 1750899791.00759 2
+  "Abraham.aux" 1750899789 3096 95d5da1437e0182a37d49217ebba04c2 "pdflatex"
   "Abraham.tex" 1750897862 9303 84c8e767c03cf187ad604355e6b4311f ""
-  "Akhriz.aux" 1750899559 2779 f4801d52282a925b45863a6c1593f19d "pdflatex"
+  "Akhriz.aux" 1750899790 2779 f4801d52282a925b45863a6c1593f19d "pdflatex"
   "Akhriz.tex" 1750899534 8712 b87bc9f3fb8f2982068620f296658ac0 ""
   "C:/Users/Ridlohi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1750850790 320125 44b6b1bd094885e7377f88da598a64c4 ""
   "C:/Users/Ridlohi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1730202303 11949260 47f230d8f2731c1468099097e189a8b2 ""
@@ -182,9 +182,9 @@
   "C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/tex/latex/trimspaces/trimspaces.sty" 1253169183 1380 971a51b00a14503ddf754cab24c3f209 ""
   "C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "Kesimpulan.aux" 1750899559 989 e2b278e1d59bda19edcbccef9fd94e14 "pdflatex"
-  "Kesimpulan.tex" 1750899312 1531 7a824dbf87680a7f2c4cd12f790cf69a ""
-  "Risang.aux" 1750899558 890 acfb8dca76d8de0ad7ec56ca9821583d "pdflatex"
+  "Kesimpulan.aux" 1750899790 989 a37b799f94aae5d4f84ca259e941e3cc "pdflatex"
+  "Kesimpulan.tex" 1750899765 2070 2181688e47faffb0e1fb4e9fff3fdcba ""
+  "Risang.aux" 1750899789 890 acfb8dca76d8de0ad7ec56ca9821583d "pdflatex"
   "Risang.tex" 1750849972 158 74be58337b2ac8796f8bb02f3b8f07c5 ""
   "f:/College/Y2/Summer/Machine Learning/FP/Laporan/ML/main.tex" 1750897785 3217 e7b454fbf0d56b7a83bed4c2ae4afb58 ""
   "images/FeatureEng.png" 1750861455 17628 6d4908d472f689b019b32b5dfa396aa4 ""
@@ -199,10 +199,10 @@
   "images/r-squared.png" 1750858673 127538 a14905929f4cb98c4e6c993a63507352 ""
   "images/rmse.png" 1750858655 109510 5ed1398b812d2b37b3fabb9f8ea2bf96 ""
   "images/scatter_plot.png" 1750858388 177422 fc3757626969cc5fce368ffe8c27badf ""
-  "main.aux" 1750899559 365 58e51ba47ad45ccbaf757b39a1d70e70 "pdflatex"
-  "main.out" 1750899559 3091 acd7712526e62b6ab658bf995a3ce3e8 "pdflatex"
+  "main.aux" 1750899790 365 58e51ba47ad45ccbaf757b39a1d70e70 "pdflatex"
+  "main.out" 1750899790 3091 acd7712526e62b6ab658bf995a3ce3e8 "pdflatex"
   "main.tex" 1750897785 3217 e7b454fbf0d56b7a83bed4c2ae4afb58 ""
-  "main.toc" 1750899559 1526 043344ed6da08c06449197b49ac374be "pdflatex"
+  "main.toc" 1750899790 1526 043344ed6da08c06449197b49ac374be "pdflatex"
   (generated)
   "Abraham.aux"
   "Akhriz.aux"

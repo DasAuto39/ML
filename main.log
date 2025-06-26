@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.29)  26 JUN 2025 07:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.29)  26 JUN 2025 08:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -972,6 +972,21 @@ Overfull \hbox (70.20389pt too wide) in paragraph at lines 16--17
 \OT1/cmr/m/it/12 for-ma-tion and Edu-ca-tion Te-ch-no-lo-gy, 6\OT1/cmr/m/n/12 (7), 528-533. doi:10.7763/IJIET.2016.V6.745. 
  []
 
+
+Overfull \hbox (5.61395pt too wide) in paragraph at lines 18--19
+\OT1/cmr/m/it/12 Flow\OT1/cmr/m/n/12 . Di-ak-ses da-ri https://www.geeksforgeeks.org/deep-learning/multi-
+ []
+
+
+Overfull \hbox (6.78477pt too wide) in paragraph at lines 20--21
+\OT1/cmr/m/n/12 Di-ak-ses da-ri https://www.geeksforgeeks.org/machine-learning/xgboost/ 
+ []
+
+
+Overfull \hbox (49.05377pt too wide) in paragraph at lines 22--23
+\OT1/cmr/m/n/12 da-ri https://www.geeksforgeeks.org/machine-learning/random-forest-regression-
+ []
+
 )
 
 [18
@@ -995,17 +1010,17 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  ACD7712526E62B6AB658BF995A3CE3E8;3091.
  ) 
 Here is how much of TeX's memory you used:
- 28203 strings out of 473897
- 586238 string characters out of 5725517
+ 28206 strings out of 473897
+ 586256 string characters out of 5725517
  1079935 words of memory out of 5000000
  50555 multiletter control sequences out of 15000+600000
  562378 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,11n,101p,769b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/Ridlohi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (19 pages, 3197269 bytes).
+Output written on main.pdf (19 pages, 3200426 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
+ 228 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
  169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
